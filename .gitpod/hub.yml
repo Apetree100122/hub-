@@ -1,5 +1,5 @@
 log:
-  level: debug
+  level: verbose
   pretty: true
 db:
   host: localhost
@@ -9,9 +9,9 @@ db:
 server:
   addr: localhost:8000
   metricsAddr: localhost:8001
-  shutdownTimeout: 10s
-  webBuildPath: ../../web/build
-  widgetBuildPath: ../../widget/build
+  shutdownTimeout: 
+  webBuildPath: //web/build
+  widgetBuildPath: //widget/build
 theme:
   colors:
     primary: "#417598"
