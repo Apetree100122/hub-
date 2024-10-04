@@ -1,17 +1,18 @@
 log:
-  level: debug
+  level: 
+  - debug
+  - verbose
   pretty: true
 db:
-  host: localhost
-  port: "5432"
+  host: localhost:5432
   database: hub
   user: gitpod
 server:
   addr: localhost:8000
   metricsAddr: localhost:8001
   shutdownTimeout: 10s
-  webBuildPath: ../../web/build
-  widgetBuildPath: ../../widget/build
+  webBuildPath: //web/build
+  widgetBuildPath: //widget/build
 theme:
   colors:
     primary: "#417598"
